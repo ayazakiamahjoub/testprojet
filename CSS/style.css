@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.quote-section {
+    position: relative;
+    background-image: url('quote.jpg'); 
+    background-size: cover;  
+    background-position: center;
+    background-attachment: fixed; 
+    color: white;
+    padding: 150px 20px;  
+    text-align: center;
+    height: 100vh;  
+}
+.quote-container {
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: inline-block;
+    padding: 60px 30px;
+    border-radius: 10px;
+    max-width: 800px;  
+}
+
+blockquote {
+    font-size: 2.5rem; 
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+blockquote footer {
+    font-size: 1.5rem; 
+    font-weight: bold;
+}
+
+header {
+    background-color: #004b87;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center; 
+}
+
+header .logo img {
+    width: 50px;  
+    height: auto;  
+    margin-right: 10px;  
+}
+
+header .logo h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    position: sticky;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.nav {
+    display:  flex-start;
+    justify-content: center;
+}
+
+.nav-item {
+    list-style: none;
+    margin: 0 1rem;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #e56f50;
+}
+.nav-item a {
+    text-decoration: none;        
+    color: inherit;               
+    padding: 10px 15px;           
+    transition: all 0.3s ease;    
+}
+
+.nav-item a:hover {
+    background-color: #007bff;    
+    color: white;                 
+    border-radius: 5px;          
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3); 
+}
+
+
+.hero {
+    background-color: #006bb3;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ff6a00;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.featured-courses {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.featured-courses h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.course-card {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.course-card img {
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.course-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.course-card p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.course-card a {
+    color: #006bb3;
+    text-decoration: none;
+    font-weight: bold;
+}
+.schedule-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.schedule-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.schedule-table th,
+.schedule-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.schedule-table th {
+    background-color: #006bb3;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.schedule-table td {
+    font-size: 1rem;
+    color: #333;
+}
+
+.schedule-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.schedule-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.schedule-table td {
+    width: 14%;
+}
+
+
+footer {
+    background-color: #004b87;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+}
